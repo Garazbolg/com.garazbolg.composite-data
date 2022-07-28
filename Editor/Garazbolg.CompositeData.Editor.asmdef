@@ -1,7 +1,7 @@
 {
-    "name": "Garazbolg.PackageTemplate.Editor",
+    "name": "Garazbolg.CompositeData.Editor",
     "references": [
-        "Garazbolg.PackageTemplate"
+        "Garazbolg.CompositeData"
     ],
     "includePlateforms": [
         "Editor"

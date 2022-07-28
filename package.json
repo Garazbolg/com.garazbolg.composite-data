@@ -1,26 +1,20 @@
 {
-    "name": "com.garazbolg.packagetemplate",
+    "name": "com.garazbolg.composite-data",
     "version": "0.1.0",
-    "displayName": "Package Template",
-    "description": "This is a template for a package",
+    "displayName": "Composite Data",
+    "description": "UnityPackage for Data scriptable objects that are made of features (sub assets)",
     "unity": "2021.3",
     "unityRelease": "4f1",
     "dependencies": {
     },
     "keywords": [
       "package manager",
-      "template"
+      "data",
+      "feature"
     ],
     "author": {
       "name": "Garazbolg",
       "email": "garazbolg@gmail.com",
-      "url": "https://garazbolg.itch.io/"
-    },
-    "samples": [
-        {
-          "displayName": "Template",
-          "description": "The actual template for creating a package",
-          "path": "Samples/sample-template"
-        }
-      ]
+      "url": "https://github.com/Garazbolg/"
+    }
   }
