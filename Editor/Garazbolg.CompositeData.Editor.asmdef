@@ -1,0 +1,9 @@
+{
+    "name": "Garazbolg.PackageTemplate.Editor",
+    "references": [
+        "Garazbolg.PackageTemplate"
+    ],
+    "includePlateforms": [
+        "Editor"
+    ]
+}

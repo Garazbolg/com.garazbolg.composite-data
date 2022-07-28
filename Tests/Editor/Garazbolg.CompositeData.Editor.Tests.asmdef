@@ -1,0 +1,11 @@
+{
+    "name": "Garazbolg.CompositeData.Tests.Editor",
+    "references": [
+        "Garazbolg.CompositeData",
+        "Garazbolg.CompositeData.Editor"
+    ],
+    "includePlateforms": [
+        "Editor"
+    ],
+    "excludePatforms":[]
+}

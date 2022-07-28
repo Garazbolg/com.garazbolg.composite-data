@@ -1,0 +1,8 @@
+{
+    "name": "Garazbolg.CompositeData.Tests",
+    "references": [
+        "Garazbolg.CompositeData"
+    ],
+    "includePlateforms": [],
+    "excludePatforms":[]
+}
