@@ -52,7 +52,10 @@ public class CompositeDataEditor : Editor
             UpdateEditorList();
 
         serializedObject.Update();
+        EditorGUI.BeginChangeCheck();
         DrawPropertiesExcluding(serializedObject, "m_Script","m_Features", "m_FeatureMap");
+        if(EditorGUI.EndChangeCheck())
+            serializedObject.ApplyModifiedProperties();
         DrawFeatureList();
     }
 
