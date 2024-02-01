@@ -13,7 +13,10 @@ public abstract class AProtoCompositeData : ScriptableObject
 {
     internal bool isInvalidated { get; set; }
 
+#if UNITY_EDITOR
     public abstract bool DuplicateFeatureCheck(System.Type type);
+    public abstract bool ValidateFeatures();
+#endif
 
     /// <summary>
     /// Use SetDirty when changing seeings in the ScriptableRendererData.
@@ -25,7 +28,6 @@ public abstract class AProtoCompositeData : ScriptableObject
     }
 
     public abstract System.Type GetFeatureType();
-    public abstract bool ValidateFeatures();
 }
 
 [System.Serializable]
