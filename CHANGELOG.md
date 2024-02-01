@@ -4,6 +4,7 @@
 
 ### Added
 ### Fixed
+- Fixed some Editor Assembly references which were still included in non editor platforms
 ### Changed
 ### Deprecated
 

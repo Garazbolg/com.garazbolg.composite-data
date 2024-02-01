@@ -1,9 +1,18 @@
 {
     "name": "Garazbolg.CompositeData.Editor",
+    "rootNamespace": "",
     "references": [
         "Garazbolg.CompositeData"
     ],
-    "includePlateforms": [
+    "includePlatforms": [
         "Editor"
-    ]
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
